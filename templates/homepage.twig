@@ -1,0 +1,39 @@
+{% extends "layout.twig" %}
+
+{% block caption %}
+  Welcome to "{{ title }}"
+{% endblock %}
+
+{% block content %}
+  This system was built to help people who are stalked online get a little more information about their stalker.
+  <br/>
+  Basically, the common usage scenario is as follows:
+  <ol>
+    <li>
+      You have a stalker. You tried ignoring, blocking, reporting, but nothing works. It's time to get creative.
+    </li>
+    <li>
+      Get a link of a video, image, article, or whatever you think your stalker might be interested in.
+    </li>
+    <li>
+      <a href="/create">Put the link into the system</a>, and receive a new link and a key. Don't lose the key, because it's the only one. The system does not save a copy.
+    </li>
+    <li>
+      Send the new link to your stalker with a small cover story, it could be something like "You're after the wrong person, you probably mean this one [include link]", or "Here's a picture of my earlobe, now leave me alone [insert link here]".
+    </li>
+    <li>
+      When they will click on the link, their information about their location and environment will be collected and saved.
+    </li>
+    <li>
+      After a reasonable amount of time had passed, <a href="/check">use your key</a> to check out the collected information
+    </li>
+  </ol>
+
+  <h1 class="content-subhead">Best practices</h1>
+  In order to obscure the fact that you are using this system, after getting your link consider using a url shortener like
+  <a href="https://goo.gl/">goo.gl</a> or <a href="https://bit.ly">bit.ly</a>.
+
+  <h1 class="content-subhead">About</h1>
+  This platform was written by <a href="https://twitter.com/noamr">@noamr</a>, the source code can be found on
+  <a href="http://github.com/noam-r/honeypot">GitHub</a> under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">creative commons (CC BY 4.0)</a> license.
+{% endblock %}

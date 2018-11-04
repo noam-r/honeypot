@@ -1,0 +1,14 @@
+{
+  "require": {
+    "vlucas/phpdotenv": "^2.5",
+    "mikecao/flight": "^1.3",
+    "twig/twig": "^2.0",
+    "donatj/phpuseragentparser": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Honeypot\\": "classes/"
+    }
+  }
+
+}
