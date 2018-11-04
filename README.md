@@ -21,6 +21,10 @@ mv .env.example .env
 ``` 
 Edit the file with your favorite editor to configure the system.
 
+Make sure you have writing permission on 2 directories:
+* cache [where the template is cached]
+* data [where the data is stored]
+
 Once you have the envronment set up, you should call:
 ```bash
 http://[system_root]/validate
