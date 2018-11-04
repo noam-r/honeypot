@@ -1,0 +1,21 @@
+{% extends "layout.twig" %}
+
+{% block caption %}
+  Check trap
+{% endblock %}
+
+{% block content %}
+  {% if message %}
+    <div class="button-error message">{{ message }}</div>
+  {% endif %}
+
+  <form class="pure-form" method="post">
+    <fieldset>
+      <input type="text" placeholder="Key" name="key" class="pure-input-2-3"/>
+      <input type="hidden" name="token" value=""/>
+
+      <button type="submit" class="pure-button pure-button-primary">Create</button>
+    </fieldset>
+  </form>
+
+{% endblock %}

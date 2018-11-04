@@ -1,0 +1,18 @@
+{% extends "layout.twig" %}
+
+{% block caption %}
+  New trap created!
+{% endblock %}
+
+{% block content %}
+
+  Your new link is:
+  <div class="button-secondary message">{{ link }}</div>
+
+  <br/>
+  <br/>
+  In order to read the content of the trap, your key will be:
+  <div class="button-success message">{{ secret }}</div>
+  <strong>SAVE THIS KEY, WITHOUT IT YOU WILL NOT BE ABLE TO SEE THE DATA YOU ARE AFTER</strong>
+
+{% endblock %}

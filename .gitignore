@@ -1,1 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
+.idea
+.env
+vendor
+!data*
+!cache*
+!.gitignore

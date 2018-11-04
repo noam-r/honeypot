@@ -14,6 +14,4 @@ try {
 	die("Cannot load env file");
 }
 
-$_ENV['running']=true;
-
 require_once __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'Routes.php';

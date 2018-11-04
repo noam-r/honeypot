@@ -1,5 +1,5 @@
 <?php
-define('GAGASHARE_WORDLIST', [
+define('HASH_WORDLIST', [
     "ability","able","aboard","about","above","accept","accident","according",
     "account","accurate","acres","across","act","action","active","activity",
     "actual","actually","add","addition","additional","adjective","adult","adventure",
